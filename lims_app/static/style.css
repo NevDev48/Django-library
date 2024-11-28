@@ -12,3 +12,38 @@
     background-color: #e9ecef;
     border-radius: 0.3rem;
 }
+
+.container {
+    margin: 80px 240px 60px 240px;
+    padding: 0px 100px 100px 100px;
+}
+
+
+.container2 #new1 {
+    background-color: blue;
+    border-color: red;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+h1 {
+    color: green;
+}
+
+.container2 input {
+    padding: 8px;
+}
+
+.container2 {
+    margin: 80px 240px 60px 240px;
+    padding: 0px 100px 100px 100px;
+}
+
+/* .container #new3 {
+    padding: 8px;
+    background-color: rgb(27, 24, 199);
+    color: white;
+    border-radius: 4px;
+    border-color: #04AA6D;
+} */

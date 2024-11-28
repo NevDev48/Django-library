@@ -18,10 +18,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import *
+from . import views
 
 urlpatterns = [
     path("home", home),
     path("readers", readers_tab),
+    path("books", books_tab),
     path("save", save_student),
     path("readers/add", save_reader),
+    path("update", update),
+    path('delete/<int:id>/',views.delete_reader,name="delete"),
+    path('update/<int:id>/',views.update_reader,name="update_reader"),
 ]
